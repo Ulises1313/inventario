@@ -1,6 +1,6 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <a class="navbar-item" href="#">
+        <a class="navbar-item" href="index.php?vista=home">
             <img src="./img/logo-mysql.webp" alt="logo-mysql" width="65" height="28">
         </a>
 
@@ -17,9 +17,9 @@
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">Usuarios</a>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item">Nuevo</a>
-                    <a class="navbar-item">Lista</a>
-                    <a class="navbar-item">Buscar</a>
+                    <a class="navbar-item" href="index.php?vista=user_new">Nuevo</a>
+                    <a class="navbar-item" href="index.php?vista=user_list">Lista</a>
+                    <a class="navbar-item" href="index.php?vista=user_search">Buscar</a>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
                     <a class="button is-primary is-rounded">
                         Mi cuenta
                     </a>
-                    <a class="button is-link is-rounded">
+                    <a href="index.php?vista=logout" class="button is-link is-rounded">
                         Salir
                     </a>
                 </div>
